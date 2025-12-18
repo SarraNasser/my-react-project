@@ -1,0 +1,51 @@
+/* Reset بسيط */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* شكل الصفحة العام */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background-color: #222;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Links */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* المحتوى */
+main {
+  padding: 20px;
+}
+
+/* عناوين الصفحات */
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+/* صفحات مؤقتة */
+h2 {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
